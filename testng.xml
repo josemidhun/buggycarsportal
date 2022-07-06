@@ -22,4 +22,10 @@
             <class name="com.buggy.car.portals.tests.BuggyCarRatingSortTest" />
         </classes>
     </test>
+
+    <test name="Buggy Cars Profile Logout Tests" >
+        <classes>
+            <class name="com.buggy.car.portals.tests.ProfileTest" />
+        </classes>
+    </test>
 </suite>

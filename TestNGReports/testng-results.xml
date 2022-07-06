@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-07T01:10:57 NZST" name="Buggy Cars Portal Tests" finished-at="2022-07-07T01:11:42 NZST" duration-ms="44662">
+    <groups>
+    </groups>
+    <test started-at="2022-07-07T01:10:57 NZST" name="Buggy Cars Login Tests" finished-at="2022-07-07T01:11:03 NZST" duration-ms="5288">
+      <class name="com.buggy.car.portals.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.buggy.car.portals.tests.LoginTest@48c76607]" started-at="2022-07-07T01:10:57 NZST" name="setUp" finished-at="2022-07-07T01:11:00 NZST" duration-ms="2716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_blank_username()[pri:0, instance:com.buggy.car.portals.tests.LoginTest@48c76607]" started-at="2022-07-07T01:11:00 NZST" name="test_blank_username" finished-at="2022-07-07T01:11:00 NZST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_blank_username -->
+        <test-method signature="test_invalid_password()[pri:0, instance:com.buggy.car.portals.tests.LoginTest@48c76607]" started-at="2022-07-07T01:11:00 NZST" name="test_invalid_password" finished-at="2022-07-07T01:11:01 NZST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_invalid_password -->
+        <test-method signature="test_invalid_username()[pri:0, instance:com.buggy.car.portals.tests.LoginTest@48c76607]" started-at="2022-07-07T01:11:01 NZST" name="test_invalid_username" finished-at="2022-07-07T01:11:01 NZST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_invalid_username -->
+        <test-method signature="test_valid_login()[pri:0, instance:com.buggy.car.portals.tests.LoginTest@48c76607]" started-at="2022-07-07T01:11:01 NZST" name="test_valid_login" finished-at="2022-07-07T01:11:02 NZST" duration-ms="1269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_valid_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buggy.car.portals.tests.LoginTest@48c76607]" started-at="2022-07-07T01:11:02 NZST" name="tearDown" finished-at="2022-07-07T01:11:03 NZST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buggy.car.portals.tests.LoginTest -->
+    </test> <!-- Buggy Cars Login Tests -->
+    <test started-at="2022-07-07T01:11:03 NZST" name="Buggy Cars Register Tests" finished-at="2022-07-07T01:11:06 NZST" duration-ms="2900">
+      <class name="com.buggy.car.portals.tests.RegisterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.buggy.car.portals.tests.RegisterTest@1722011b]" started-at="2022-07-07T01:11:03 NZST" name="setUp" finished-at="2022-07-07T01:11:04 NZST" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_valid_register()[pri:0, instance:com.buggy.car.portals.tests.RegisterTest@1722011b]" started-at="2022-07-07T01:11:04 NZST" name="test_valid_register" finished-at="2022-07-07T01:11:05 NZST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_valid_register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buggy.car.portals.tests.RegisterTest@1722011b]" started-at="2022-07-07T01:11:05 NZST" name="tearDown" finished-at="2022-07-07T01:11:06 NZST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buggy.car.portals.tests.RegisterTest -->
+    </test> <!-- Buggy Cars Register Tests -->
+    <test started-at="2022-07-07T01:11:06 NZST" name="Buggy Cars Vote Tests" finished-at="2022-07-07T01:11:25 NZST" duration-ms="19531">
+      <class name="com.buggy.car.portals.tests.BuggyCarsVoteTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.buggy.car.portals.tests.BuggyCarsVoteTest@275bf9b3]" started-at="2022-07-07T01:11:06 NZST" name="setUp" finished-at="2022-07-07T01:11:07 NZST" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_voting()[pri:0, instance:com.buggy.car.portals.tests.BuggyCarsVoteTest@275bf9b3]" started-at="2022-07-07T01:11:07 NZST" name="test_voting" finished-at="2022-07-07T01:11:25 NZST" duration-ms="17812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_voting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buggy.car.portals.tests.BuggyCarsVoteTest@275bf9b3]" started-at="2022-07-07T01:11:25 NZST" name="tearDown" finished-at="2022-07-07T01:11:25 NZST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buggy.car.portals.tests.BuggyCarsVoteTest -->
+    </test> <!-- Buggy Cars Vote Tests -->
+    <test started-at="2022-07-07T01:11:25 NZST" name="Buggy Cars Sort Tests" finished-at="2022-07-07T01:11:33 NZST" duration-ms="7454">
+      <class name="com.buggy.car.portals.tests.BuggyCarRatingSortTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.buggy.car.portals.tests.BuggyCarRatingSortTest@1ef6d34c]" started-at="2022-07-07T01:11:25 NZST" name="setUp" finished-at="2022-07-07T01:11:27 NZST" duration-ms="1648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_valid_rank_sort()[pri:0, instance:com.buggy.car.portals.tests.BuggyCarRatingSortTest@1ef6d34c]" started-at="2022-07-07T01:11:27 NZST" name="test_valid_rank_sort" finished-at="2022-07-07T01:11:32 NZST" duration-ms="5694" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Sorting by rank did not sort correctly expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Sorting by rank did not sort correctly expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at com.buggy.car.portals.tests.BuggyCarRatingSortTest.test_valid_rank_sort(BuggyCarRatingSortTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_valid_rank_sort -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buggy.car.portals.tests.BuggyCarRatingSortTest@1ef6d34c]" started-at="2022-07-07T01:11:32 NZST" name="tearDown" finished-at="2022-07-07T01:11:33 NZST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buggy.car.portals.tests.BuggyCarRatingSortTest -->
+    </test> <!-- Buggy Cars Sort Tests -->
+    <test started-at="2022-07-07T01:11:33 NZST" name="Buggy Cars Profile Logout Tests" finished-at="2022-07-07T01:11:42 NZST" duration-ms="9461">
+      <class name="com.buggy.car.portals.tests.ProfileTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.buggy.car.portals.tests.ProfileTest@125290e5]" started-at="2022-07-07T01:11:33 NZST" name="setUp" finished-at="2022-07-07T01:11:34 NZST" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_voting()[pri:0, instance:com.buggy.car.portals.tests.ProfileTest@125290e5]" started-at="2022-07-07T01:11:34 NZST" name="test_voting" finished-at="2022-07-07T01:11:42 NZST" duration-ms="7761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_voting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buggy.car.portals.tests.ProfileTest@125290e5]" started-at="2022-07-07T01:11:42 NZST" name="tearDown" finished-at="2022-07-07T01:11:42 NZST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buggy.car.portals.tests.ProfileTest -->
+    </test> <!-- Buggy Cars Profile Logout Tests -->
+  </suite> <!-- Buggy Cars Portal Tests -->
+</testng-results>

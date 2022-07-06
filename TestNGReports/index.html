@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" class="navigator-link">
+              <span class="suite-name border-failed">Buggy Cars Portal Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Buggy_Cars_Portal_Tests" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Buggy_Cars_Portal_Tests" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Buggy_Cars_Portal_Tests" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Buggy_Cars_Portal_Tests" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Buggy_Cars_Portal_Tests" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Buggy_Cars_Portal_Tests" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Buggy_Cars_Portal_Tests" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" class="hide-methods failed suite-Buggy_Cars_Portal_Tests"> (hide)</a> <!-- hide-methods failed suite-Buggy_Cars_Portal_Tests -->
+                      <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" class="show-methods failed suite-Buggy_Cars_Portal_Tests"> (show)</a> <!-- show-methods failed suite-Buggy_Cars_Portal_Tests -->
+                    </span>
+                    <div class="method-list-content failed suite-Buggy_Cars_Portal_Tests">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" title="com.buggy.car.portals.tests.BuggyCarRatingSortTest" class="method navigator-link" hash-for-method="test_valid_rank_sort">test_valid_rank_sort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Buggy_Cars_Portal_Tests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" class="hide-methods passed suite-Buggy_Cars_Portal_Tests"> (hide)</a> <!-- hide-methods passed suite-Buggy_Cars_Portal_Tests -->
+                      <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" class="show-methods passed suite-Buggy_Cars_Portal_Tests"> (show)</a> <!-- show-methods passed suite-Buggy_Cars_Portal_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Buggy_Cars_Portal_Tests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" title="com.buggy.car.portals.tests.LoginTest" class="method navigator-link" hash-for-method="test_blank_username">test_blank_username</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" title="com.buggy.car.portals.tests.LoginTest" class="method navigator-link" hash-for-method="test_invalid_password">test_invalid_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" title="com.buggy.car.portals.tests.LoginTest" class="method navigator-link" hash-for-method="test_invalid_username">test_invalid_username</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" title="com.buggy.car.portals.tests.LoginTest" class="method navigator-link" hash-for-method="test_valid_login">test_valid_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" title="com.buggy.car.portals.tests.RegisterTest" class="method navigator-link" hash-for-method="test_valid_register">test_valid_register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" title="com.buggy.car.portals.tests.BuggyCarsVoteTest" class="method navigator-link" hash-for-method="test_voting">test_voting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" title="com.buggy.car.portals.tests.ProfileTest" class="method navigator-link" hash-for-method="test_voting">test_voting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Buggy_Cars_Portal_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Buggy_Cars_Portal_Tests" class="panel Buggy_Cars_Portal_Tests">
+          <div class="suite-Buggy_Cars_Portal_Tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.buggy.car.portals.tests.BuggyCarRatingSortTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_valid_rank_sort">
+                  </a> <!-- test_valid_rank_sort -->
+                  <span class="method-name">test_valid_rank_sort</span>
+                  <div class="stack-trace">java.lang.AssertionError: Sorting by rank did not sort correctly expected [true] but found [false]
+	at com.buggy.car.portals.tests.BuggyCarRatingSortTest.test_valid_rank_sort(BuggyCarRatingSortTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Buggy_Cars_Portal_Tests-class-failed -->
+          <div class="suite-Buggy_Cars_Portal_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.buggy.car.portals.tests.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_valid_register">
+                  </a> <!-- test_valid_register -->
+                  <span class="method-name">test_valid_register</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Buggy_Cars_Portal_Tests-class-passed -->
+          <div class="suite-Buggy_Cars_Portal_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.buggy.car.portals.tests.BuggyCarsVoteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_voting">
+                  </a> <!-- test_voting -->
+                  <span class="method-name">test_voting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Buggy_Cars_Portal_Tests-class-passed -->
+          <div class="suite-Buggy_Cars_Portal_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.buggy.car.portals.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_blank_username">
+                  </a> <!-- test_blank_username -->
+                  <span class="method-name">test_blank_username</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_invalid_password">
+                  </a> <!-- test_invalid_password -->
+                  <span class="method-name">test_invalid_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_invalid_username">
+                  </a> <!-- test_invalid_username -->
+                  <span class="method-name">test_invalid_username</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_valid_login">
+                  </a> <!-- test_valid_login -->
+                  <span class="method-name">test_valid_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Buggy_Cars_Portal_Tests-class-passed -->
+          <div class="suite-Buggy_Cars_Portal_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.buggy.car.portals.tests.ProfileTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_voting">
+                  </a> <!-- test_voting -->
+                  <span class="method-name">test_voting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Buggy_Cars_Portal_Tests-class-passed -->
+        </div> <!-- panel Buggy_Cars_Portal_Tests -->
+        <div panel-name="test-xml-Buggy_Cars_Portal_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/midhunjose/WPProject/BuggyCarsPortal/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Buggy Cars Portal Tests&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Buggy Cars Login Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.buggy.car.portals.tests.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Buggy Cars Login Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Buggy Cars Register Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.buggy.car.portals.tests.RegisterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Buggy Cars Register Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Buggy Cars Vote Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.buggy.car.portals.tests.BuggyCarsVoteTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Buggy Cars Vote Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Buggy Cars Sort Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.buggy.car.portals.tests.BuggyCarRatingSortTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Buggy Cars Sort Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Buggy Cars Profile Logout Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.buggy.car.portals.tests.ProfileTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Buggy Cars Profile Logout Tests --&gt;
+&lt;/suite&gt; &lt;!-- Buggy Cars Portal Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Buggy_Cars_Portal_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Buggy Cars Portal Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Buggy Cars Login Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Buggy Cars Register Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Buggy Cars Vote Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Buggy Cars Sort Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Buggy Cars Profile Logout Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Buggy_Cars_Portal_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Buggy Cars Portal Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Buggy_Cars_Portal_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Buggy Cars Portal Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Buggy_Cars_Portal_Tests');
+function tableData_Buggy_Cars_Portal_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_voting')
+data.setCell(0, 2, 'com.buggy.car.portals.tests.BuggyCarsVoteTest')
+data.setCell(0, 3, 17812);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_voting')
+data.setCell(1, 2, 'com.buggy.car.portals.tests.ProfileTest')
+data.setCell(1, 3, 7761);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_valid_rank_sort')
+data.setCell(2, 2, 'com.buggy.car.portals.tests.BuggyCarRatingSortTest')
+data.setCell(2, 3, 5694);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_valid_login')
+data.setCell(3, 2, 'com.buggy.car.portals.tests.LoginTest')
+data.setCell(3, 3, 1269);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_valid_register')
+data.setCell(4, 2, 'com.buggy.car.portals.tests.RegisterTest')
+data.setCell(4, 3, 1181);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_invalid_password')
+data.setCell(5, 2, 'com.buggy.car.portals.tests.LoginTest')
+data.setCell(5, 3, 620);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_blank_username')
+data.setCell(6, 2, 'com.buggy.car.portals.tests.LoginTest')
+data.setCell(6, 3, 305);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_invalid_username')
+data.setCell(7, 2, 'com.buggy.car.portals.tests.LoginTest')
+data.setCell(7, 3, 245);
+window.suiteTableData['Buggy_Cars_Portal_Tests']= { tableData: data, tableDiv: 'times-div-Buggy_Cars_Portal_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <div id="times-div-Buggy_Cars_Portal_Tests">
+              </div> <!-- times-div-Buggy_Cars_Portal_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Buggy_Cars_Portal_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Buggy Cars Portal Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Buggy_Cars_Portal_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Buggy_Cars_Portal_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.buggy.car.portals.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_blank_username</span>
+                <span class="method-start">2721 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_invalid_password</span>
+                <span class="method-start">3027 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_invalid_username</span>
+                <span class="method-start">3648 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_valid_login</span>
+                <span class="method-start">3893 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5163 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.buggy.car.portals.tests.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5284 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_valid_register</span>
+                <span class="method-start">6894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8075 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.buggy.car.portals.tests.BuggyCarsVoteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8188 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_voting</span>
+                <span class="method-start">9799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27612 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.buggy.car.portals.tests.BuggyCarRatingSortTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27728 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_valid_rank_sort</span>
+                <span class="method-start">29376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35073 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.buggy.car.portals.tests.ProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">35188 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_voting</span>
+                <span class="method-start">36786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44547 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
