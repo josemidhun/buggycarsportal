@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96f79108-bc02-483f-878f-2243e2e9fd69" name="Changes" comment="Buggy project">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/beans/LoginBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/beans/RegisterBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/BuggyCarsRatingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/BuggyCarsVotePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/BuggyCarRatingSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/BuggyCarsVoteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/BuggyTestSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/BuggyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/RegisterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +23,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -60,6 +49,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
@@ -68,7 +58,7 @@
       <module name="BuggyCarsPortal" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -200,6 +190,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657015397247</updated>
     </task>
+    <task id="LOCAL-00001" summary="Buggy project">
+      <created>1657101945599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657101945599</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
