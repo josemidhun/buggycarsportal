@@ -7,13 +7,20 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+import org.testng.Reporter;
+
 
 @Test()
 public class LoginTest extends BuggyTestSetup {
 
+    private SoftAssert softAssert = new SoftAssert();
     WebDriver webDriver;
     LoginBean loginBean;
     LoginPage loginPage;
+
+
+
     private void setDefaultValues(){
         loginBean = new LoginBean();
         loginBean.setName("midhunjose");
@@ -25,16 +32,23 @@ public class LoginTest extends BuggyTestSetup {
     public void setUp(){
         webDriver = brew();
         loginPage = new LoginPage(webDriver);
+
     }
 
     @Test
     public void test_valid_login(){
         webDriver.get("https://buggy.justtestit.org/");
+
         setDefaultValues();
         loginPage.setWebLoginTxt(loginBean.getName());
         loginPage.setWebPasswordTxt(loginBean.getPassword());
         loginPage.clickWebLoginBtn();
-        Assert.assertTrue(loginPage.validateLoginGreeting("Midhun"), "Invalid login");
+        String expectedTitle = "Buggy Cars";
+        String originalTitle = webDriver.getTitle();
+        softAssert.assertEquals(originalTitle, expectedTitle);
+        softAssert.assertEquals(originalTitle, "Buggy Cars Portal" );
+        softAssert.assertTrue(loginPage.validateLoginGreeting("Midhun"), "Invalid login");
+        softAssert.assertAll();
     }
 
     @Test
@@ -68,6 +82,7 @@ public class LoginTest extends BuggyTestSetup {
     public void tearDown(){
         if (webDriver !=null) {
             webDriver.quit();
+            Reporter.log("Driver Closed After Testing");
         }
     }
 }
