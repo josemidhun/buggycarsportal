@@ -6,6 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="96f79108-bc02-483f-878f-2243e2e9fd69" name="Changes" comment="Buggy project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Login Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Login Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Login Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Login Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Register Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Register Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Register Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Register Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Sort Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Sort Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Sort Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Sort Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Vote Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Vote Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Vote Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Vote Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.BuggyCarRatingSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.BuggyCarRatingSortTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.BuggyCarsVoteTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.BuggyCarsVoteTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.RegisterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.RegisterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -214,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657114327491</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Buggy project">
+      <created>1657234255641</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657234255641</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

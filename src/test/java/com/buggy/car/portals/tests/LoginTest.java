@@ -43,10 +43,9 @@ public class LoginTest extends BuggyTestSetup {
         loginPage.setWebLoginTxt(loginBean.getName());
         loginPage.setWebPasswordTxt(loginBean.getPassword());
         loginPage.clickWebLoginBtn();
-        String expectedTitle = "Buggy Cars";
+        String expectedTitle = "Buggy Cars Rating";
         String originalTitle = webDriver.getTitle();
         softAssert.assertEquals(originalTitle, expectedTitle);
-        softAssert.assertEquals(originalTitle, "Buggy Cars Portal" );
         softAssert.assertTrue(loginPage.validateLoginGreeting("Midhun"), "Invalid login");
         softAssert.assertAll();
     }

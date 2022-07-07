@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,11 +102,6 @@
                       <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" class="show-methods failed suite-Buggy_Cars_Portal_Tests"> (show)</a> <!-- show-methods failed suite-Buggy_Cars_Portal_Tests -->
                     </span>
                     <div class="method-list-content failed suite-Buggy_Cars_Portal_Tests">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" title="com.buggy.car.portals.tests.LoginTest" class="method navigator-link" hash-for-method="test_valid_login">test_valid_login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" title="com.buggy.car.portals.tests.BuggyCarRatingSortTest" class="method navigator-link" hash-for-method="test_valid_rank_sort">test_valid_rank_sort</a> <!-- method navigator-link -->
@@ -134,6 +129,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" title="com.buggy.car.portals.tests.LoginTest" class="method navigator-link" hash-for-method="test_invalid_username">test_invalid_username</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Buggy_Cars_Portal_Tests" title="com.buggy.car.portals.tests.LoginTest" class="method navigator-link" hash-for-method="test_valid_login">test_valid_login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -166,30 +166,6 @@
           <div class="suite-Buggy_Cars_Portal_Tests-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.buggy.car.portals.tests.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_valid_login">
-                  </a> <!-- test_valid_login -->
-                  <span class="method-name">test_valid_login</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	expected [Buggy Cars] but found [Buggy Cars Rating],
-	expected [Buggy Cars Portal] but found [Buggy Cars Rating]
-	at com.buggy.car.portals.tests.LoginTest.test_valid_login(LoginTest.java:51)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Buggy_Cars_Portal_Tests-class-failed -->
-          <div class="suite-Buggy_Cars_Portal_Tests-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">com.buggy.car.portals.tests.BuggyCarRatingSortTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -212,28 +188,14 @@
           <div class="suite-Buggy_Cars_Portal_Tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.buggy.car.portals.tests.LoginTest</span>
+              <span class="class-name">com.buggy.car.portals.tests.RegisterTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_blank_username">
-                  </a> <!-- test_blank_username -->
-                  <span class="method-name">test_blank_username</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_invalid_password">
-                  </a> <!-- test_invalid_password -->
-                  <span class="method-name">test_invalid_password</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_invalid_username">
-                  </a> <!-- test_invalid_username -->
-                  <span class="method-name">test_invalid_username</span>
+                  <a name="test_valid_register">
+                  </a> <!-- test_valid_register -->
+                  <span class="method-name">test_valid_register</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -271,14 +233,35 @@
           <div class="suite-Buggy_Cars_Portal_Tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.buggy.car.portals.tests.RegisterTest</span>
+              <span class="class-name">com.buggy.car.portals.tests.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_valid_register">
-                  </a> <!-- test_valid_register -->
-                  <span class="method-name">test_valid_register</span>
+                  <a name="test_blank_username">
+                  </a> <!-- test_blank_username -->
+                  <span class="method-name">test_blank_username</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_invalid_password">
+                  </a> <!-- test_invalid_password -->
+                  <span class="method-name">test_invalid_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_invalid_username">
+                  </a> <!-- test_invalid_username -->
+                  <span class="method-name">test_invalid_username</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_valid_login">
+                  </a> <!-- test_valid_login -->
+                  <span class="method-name">test_valid_login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -371,40 +354,40 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_voting')
 data.setCell(0, 2, 'com.buggy.car.portals.tests.BuggyCarsVoteTest')
-data.setCell(0, 3, 17063);
+data.setCell(0, 3, 17080);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test_voting')
 data.setCell(1, 2, 'com.buggy.car.portals.tests.ProfileTest')
-data.setCell(1, 3, 7745);
+data.setCell(1, 3, 7906);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'test_valid_rank_sort')
 data.setCell(2, 2, 'com.buggy.car.portals.tests.BuggyCarRatingSortTest')
-data.setCell(2, 3, 5637);
+data.setCell(2, 3, 5633);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_valid_login')
-data.setCell(3, 2, 'com.buggy.car.portals.tests.LoginTest')
-data.setCell(3, 3, 1128);
+data.setCell(3, 1, 'test_valid_register')
+data.setCell(3, 2, 'com.buggy.car.portals.tests.RegisterTest')
+data.setCell(3, 3, 1346);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'test_valid_register')
-data.setCell(4, 2, 'com.buggy.car.portals.tests.RegisterTest')
-data.setCell(4, 3, 1051);
+data.setCell(4, 1, 'test_valid_login')
+data.setCell(4, 2, 'com.buggy.car.portals.tests.LoginTest')
+data.setCell(4, 3, 1242);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'test_invalid_password')
 data.setCell(5, 2, 'com.buggy.car.portals.tests.LoginTest')
-data.setCell(5, 3, 579);
+data.setCell(5, 3, 627);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'test_blank_username')
 data.setCell(6, 2, 'com.buggy.car.portals.tests.LoginTest')
-data.setCell(6, 3, 294);
+data.setCell(6, 3, 270);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'test_invalid_username')
 data.setCell(7, 2, 'com.buggy.car.portals.tests.LoginTest')
-data.setCell(7, 3, 256);
+data.setCell(7, 3, 254);
 window.suiteTableData['Buggy_Cars_Portal_Tests']= { tableData: data, tableDiv: 'times-div-Buggy_Cars_Portal_Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
               <div id="times-div-Buggy_Cars_Portal_Tests">
               </div> <!-- times-div-Buggy_Cars_Portal_Tests -->
             </div> <!-- times-div -->
@@ -437,87 +420,85 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_blank_username</span>
-                <span class="method-start">2503 ms</span>
+                <span class="method-start">2583 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_invalid_password</span>
-                <span class="method-start">2798 ms</span>
+                <span class="method-start">2855 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_invalid_username</span>
-                <span class="method-start">3377 ms</span>
+                <span class="method-start">3482 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">test_valid_login</span>
-                <span class="method-start">3634 ms</span>
+                <span class="method-start">3736 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4766 ms</span>
+                <span class="method-start">4979 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.buggy.car.portals.tests.RegisterTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">4897 ms</span>
+                <span class="method-start">5155 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_valid_register</span>
-                <span class="method-start">6621 ms</span>
+                <span class="method-start">6985 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7672 ms</span>
+                <span class="method-start">8331 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.buggy.car.portals.tests.BuggyCarsVoteTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">7783 ms</span>
+                <span class="method-start">8493 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_voting</span>
-                <span class="method-start">9635 ms</span>
+                <span class="method-start">10333 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26698 ms</span>
+                <span class="method-start">27414 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.buggy.car.portals.tests.BuggyCarRatingSortTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">26827 ms</span>
+                <span class="method-start">27537 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test_valid_rank_sort</span>
-                <span class="method-start">28693 ms</span>
+                <span class="method-start">29486 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34331 ms</span>
+                <span class="method-start">35121 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.buggy.car.portals.tests.ProfileTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">34445 ms</span>
+                <span class="method-start">35228 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_voting</span>
-                <span class="method-start">36461 ms</span>
+                <span class="method-start">37332 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">44207 ms</span>
+                <span class="method-start">45238 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
