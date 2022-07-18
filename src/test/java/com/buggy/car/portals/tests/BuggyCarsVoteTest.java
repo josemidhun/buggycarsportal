@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class BuggyCarsVoteTest extends BuggyTestSetup {
-    WebDriver webDriver;
+    WebDriver driver;
     LoginPage loginPage;
     BuggyCarsVotePage buggyCarsVotePage;
 
@@ -17,15 +17,15 @@ public class BuggyCarsVoteTest extends BuggyTestSetup {
 
     @BeforeClass
     public void setUp(){
-       webDriver = brew();
-        loginPage = new LoginPage(webDriver);
-        buggyCarsVotePage = new BuggyCarsVotePage(webDriver);
+        driver = brew();
+        loginPage = new LoginPage(driver);
+        buggyCarsVotePage = new BuggyCarsVotePage(driver);
     }
 
     @Test
     public void test_voting(){
         BuggyUtil buggyUtil = new BuggyUtil();
-        buggyUtil.registerAndLogin(webDriver);
+        buggyUtil.registerAndLogin(driver);
 
         buggyCarsVotePage.clickWebBuggyRatingBtn();
         buggyCarsVotePage.clickWebAllCarModelsImage();
@@ -43,8 +43,8 @@ public class BuggyCarsVoteTest extends BuggyTestSetup {
     }
     @AfterClass
     public void tearDown(){
-        if (webDriver !=null) {
-            webDriver.quit();
+        if (driver !=null) {
+            driver.quit();
         }
     }
 

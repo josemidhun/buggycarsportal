@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96f79108-bc02-483f-878f-2243e2e9fd69" name="Changes" comment="Buggy project">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/ParameterCrossBrowserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/ParameterLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngsmoke.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Login Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Login Tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Login Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Login Tests.xml" afterDir="false" />
@@ -14,16 +17,41 @@
       <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Sort Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Sort Tests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Vote Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Vote Tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Vote Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/Buggy Cars Vote Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/Buggy Cars Portal Tests/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.BuggyCarRatingSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.BuggyCarRatingSortTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.BuggyCarsVoteTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.BuggyCarsVoteTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.LoginTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.RegisterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/junitreports/TEST-com.buggy.car.portals.tests.RegisterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/Buggy Cars Login Tests.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/Buggy Cars Login Tests.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/Buggy Cars Register Tests.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/Buggy Cars Register Tests.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/Buggy Cars Sort Tests.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/Buggy Cars Sort Tests.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/Buggy Cars Vote Tests.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/Buggy Cars Vote Tests.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/Buggy Cars Portal Tests/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGReports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNGReports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGReports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/beans/LoginBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/beans/LoginBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/BuggyCarsRatingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/BuggyCarsRatingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/BuggyCarsVotePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/BuggyCarsVotePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/LogoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/LogoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/BuggyCarRatingSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/BuggyCarRatingSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/BuggyCarsVoteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/BuggyCarsVoteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/BuggyTestSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/BuggyTestSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/BuggyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/BuggyUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/ProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/ProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/buggy/car/portals/tests/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +78,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2BWIPnL0w9sOXwCLeD6RpkTImhf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -61,15 +92,23 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/midhunjose/WPProject/BuggyCarsPortal&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.buggy.car.portals.tests" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Buggy Tests Suite">
@@ -96,40 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuggyCarsVoteTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BuggyCarsPortal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.buggy.car.portals.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.buggy.car.portals.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.buggy.car.portals.tests.BuggyCarsVoteTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BuggyCarsPortal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.buggy.car.portals.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.buggy.car.portals.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.buggy.car.portals.tests.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginTest.test_valid_login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BuggyCarsPortal" />
       <extension name="coverage">
@@ -148,7 +153,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProfileTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParameterCrossBrowserTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BuggyCarsPortal" />
       <extension name="coverage">
         <pattern>
@@ -157,7 +162,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.buggy.car.portals.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.buggy.car.portals.tests.ProfileTest" />
+      <option name="MAIN_CLASS_NAME" value="com.buggy.car.portals.tests.ParameterCrossBrowserTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -165,7 +170,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProfileTest.test_voting" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParameterCrossBrowserTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BuggyCarsPortal" />
       <extension name="coverage">
         <pattern>
@@ -174,9 +179,62 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.buggy.car.portals.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.buggy.car.portals.tests.ProfileTest" />
-      <option name="METHOD_NAME" value="test_voting" />
+      <option name="MAIN_CLASS_NAME" value="com.buggy.car.portals.tests.ParameterCrossBrowserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterCrossBrowserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BuggyCarsPortal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buggy.car.portals.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.buggy.car.portals.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.buggy.car.portals.tests.ParameterCrossBrowserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest.test_valid_register" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BuggyCarsPortal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buggy.car.portals.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.buggy.car.portals.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.buggy.car.portals.tests.RegisterTest" />
+      <option name="METHOD_NAME" value="test_valid_register" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Smoke Tests Suite" type="TestNG">
+      <module name="BuggyCarsPortal" />
+      <shortenClasspath name="NONE" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngsmoke.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/SmokeTestReports" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -185,19 +243,20 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Buggy Tests Suite" />
-      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.Smoke Tests Suite" />
+      <item itemvalue="TestNG.ParameterCrossBrowserTest" />
+      <item itemvalue="TestNG.ParameterCrossBrowserTest (2)" />
+      <item itemvalue="TestNG.ParameterCrossBrowserTest (3)" />
+      <item itemvalue="TestNG.RegisterTest.test_valid_register" />
       <item itemvalue="TestNG.LoginTest.test_valid_login" />
-      <item itemvalue="TestNG.ProfileTest" />
-      <item itemvalue="TestNG.ProfileTest.test_voting" />
-      <item itemvalue="TestNG.BuggyCarsVoteTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginTest.test_valid_login" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.ProfileTest.test_voting" />
-        <item itemvalue="TestNG.ProfileTest" />
-        <item itemvalue="TestNG.BuggyCarsVoteTest" />
+        <item itemvalue="TestNG.ParameterCrossBrowserTest" />
+        <item itemvalue="TestNG.ParameterCrossBrowserTest (3)" />
+        <item itemvalue="TestNG.ParameterCrossBrowserTest (2)" />
+        <item itemvalue="TestNG.RegisterTest.test_valid_register" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657234255641</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Buggy project">
+      <created>1657234550203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657234550203</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

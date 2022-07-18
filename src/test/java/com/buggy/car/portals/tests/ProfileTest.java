@@ -10,30 +10,30 @@ import org.testng.annotations.Test;
 
 public class ProfileTest extends BuggyTestSetup {
 
-    WebDriver webDriver;
+    WebDriver driver;
     LoginPage loginPage;
 
     LogoutPage logoutPage;
 
     @BeforeClass
     public void setUp() {
-        webDriver = brew();
-        loginPage = new LoginPage(webDriver);
-        logoutPage = new LogoutPage(webDriver);
+        driver = brew();
+        loginPage = new LoginPage(driver);
+        logoutPage = new LogoutPage(driver);
     }
 
     @Test
     public void test_voting(){
         BuggyUtil buggyUtil = new BuggyUtil();
-        buggyUtil.registerAndLogin(webDriver);
+        buggyUtil.registerAndLogin(driver);
         logoutPage.clickWebProfileLnk();
         buggyUtil.buggySleep();
         logoutPage.clickWebLogoutLnk();
     }
     @AfterClass
     public void tearDown(){
-        if (webDriver !=null) {
-            webDriver.quit();
+        if (driver !=null) {
+            driver.quit();
         }
     }
 

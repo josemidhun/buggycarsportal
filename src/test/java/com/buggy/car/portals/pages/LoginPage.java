@@ -8,19 +8,24 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
-    private WebDriver webDriver;
+    private WebDriver driver;
 
     @FindBy(xpath = "/html/body/my-app/header/nav/div/my-login/div/form/a")
     WebElement webRegNavBtn;
 
-    @FindBy(xpath = "/html/body/my-app/header/nav/div/my-login/div/form/div/input[1]")
+    @FindBy(name = "login")
     WebElement webLoginTxt;
 
-    @FindBy(xpath = "/html/body/my-app/header/nav/div/my-login/div/form/div/input[2]")
+    @FindBy(xpath = "//input[@name='password']")
+
     WebElement webPasswordTxt;
 
-    @FindBy(xpath = "/html/body/my-app/header/nav/div/my-login/div/form/button")
+
+    @FindBy(xpath ="//button[text()='Login']")
+            // @FindBy(xpath = "/html/body/my-app/header/nav/div/my-login/div/form/button") - Absolute XPath
+            // Element = <button _ngcontent-nga-2="" class="btn btn-success" type="submit">Login</button>
     WebElement webLoginBtn;
+
 
     @FindBy(xpath = "//my-login/div/ul/li[1]/span")
     WebElement webLoginGreeting;
@@ -31,8 +36,8 @@ public class LoginPage {
     public LoginPage(WebDriver driver) {
 
         //Set the Web Driver for this class to use the existing webdriver created in buggytest to interact with the browser.
-        this.webDriver = driver;
-        PageFactory.initElements(webDriver, this);
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
     public void setWebLoginTxt(String webLoginTxt) {

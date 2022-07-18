@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class RegisterTest extends BuggyTestSetup {
 
-    WebDriver webDriver;
+    WebDriver driver;
     LoginPage loginPage;
     RegisterBean registerBean;
     RegisterPage registerPage;
@@ -27,14 +27,14 @@ public class RegisterTest extends BuggyTestSetup {
 
     @BeforeClass
     public void setUp(){
-        webDriver = brew();
-        loginPage = new LoginPage(webDriver);
-        registerPage = new RegisterPage(webDriver);
+        driver = brew();
+        loginPage = new LoginPage(driver);
+        registerPage = new RegisterPage(driver);
     }
 
     @Test
     public void test_valid_register(){
-        webDriver.get("https://buggy.justtestit.org/");
+        driver.get("https://buggy.justtestit.org/");
         setDefaultValues();
         loginPage.clickWebRegisterNavBtn();
         registerPage.setWebRegLoginTxt(registerBean.getLogin());
@@ -48,8 +48,8 @@ public class RegisterTest extends BuggyTestSetup {
 
     @AfterClass
     public void tearDown() {
-        if (webDriver != null) {
-            webDriver.quit();
+        if (driver != null) {
+            driver.quit();
         }
     }
 }

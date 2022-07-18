@@ -8,14 +8,14 @@ import java.util.concurrent.TimeUnit;
 
 public class BuggyTestSetup {
 
-public WebDriver webDriver;
+public WebDriver driver;
 public WebDriver brew(){
     //Create a WebDriver to interact with the Chrome Browser
     WebDriverManager.chromedriver().setup();
-    webDriver = new ChromeDriver();
-    webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    webDriver.get("https://buggy.justtestit.org/");
-    return webDriver;
+    driver = new ChromeDriver();
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    driver.get("https://buggy.justtestit.org/");
+    return driver;
 }
 
 }

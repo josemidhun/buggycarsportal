@@ -25,11 +25,11 @@ public class BuggyUtil {
         loginPage.setWebPasswordTxt(registerBean.getPassword());
         loginPage.clickWebLoginBtn();
     }
-    public RegisterBean registerAndLogin(WebDriver webDriver){
-        webDriver.get("https://buggy.justtestit.org/");
+    public RegisterBean registerAndLogin(WebDriver driver){
+        driver.get("https://buggy.justtestit.org/");
 
-        loginPage = new LoginPage(webDriver);
-        registerPage = new RegisterPage(webDriver);
+        loginPage = new LoginPage(driver);
+        registerPage = new RegisterPage(driver);
         setDefaultValues();
         loginPage.clickWebRegisterNavBtn();
         registerPage.setWebRegLoginTxt(registerBean.getLogin());

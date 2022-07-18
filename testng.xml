@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-
 <suite name="Buggy Cars Portal Tests" verbose="1" >
+    <test name="Buggy Cars Parameter Login Tests" >
+        <parameter name="username" value="midhunjose"/>
+        <parameter name="password" value="P@ssw0rd1"/>
+        <parameter name="users" value="username1,password1 username2,password2 username3,password3"/>
+        <classes>
+            <class name="com.buggy.car.portals.tests.ParameterLoginTest" />
+        </classes>
+    </test>
+    <test name="Buggy Cars Cross Browser Test Edge" >
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="com.buggy.car.portals.tests.ParameterCrossBrowserTest" />
+        </classes>
+    </test>
+    <test name="Buggy Cars Cross Browser Test Chrome" >
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.buggy.car.portals.tests.ParameterCrossBrowserTest" />
+        </classes>
+    </test>
     <test name="Buggy Cars Login Tests" >
         <classes>
             <class name="com.buggy.car.portals.tests.LoginTest" />

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LogoutPage  {
 
-    private WebDriver webDriver;
+    private WebDriver driver;
 
     @FindBy(xpath = "/html/body/my-app/header/nav/div/my-login/div/ul/li[2]/a")
     WebElement webProfileLnk;
@@ -17,8 +17,8 @@ public class LogoutPage  {
 
 
     public LogoutPage(WebDriver driver) {
-        this.webDriver = driver;
-        PageFactory.initElements(webDriver, this);
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
     public void clickWebProfileLnk(){

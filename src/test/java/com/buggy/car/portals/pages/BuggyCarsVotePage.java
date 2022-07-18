@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BuggyCarsVotePage {
 
-    private WebDriver webDriver;
+    private WebDriver driver;
 
 
     @FindBy(xpath = "/html/body/my-app/div/main/my-home/div/div[3]/div/a/img")
@@ -30,8 +30,8 @@ public class BuggyCarsVotePage {
 
 
     public BuggyCarsVotePage(WebDriver driver) {
-        this.webDriver = driver;
-        PageFactory.initElements(webDriver, this);
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
     public void setWebComments(String webComments) {

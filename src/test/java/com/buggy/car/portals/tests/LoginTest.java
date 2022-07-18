@@ -4,9 +4,7 @@ import com.buggy.car.portals.beans.LoginBean;
 import com.buggy.car.portals.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 import org.testng.Reporter;
 
@@ -15,7 +13,7 @@ import org.testng.Reporter;
 public class LoginTest extends BuggyTestSetup {
 
     private SoftAssert softAssert = new SoftAssert();
-    WebDriver webDriver;
+    WebDriver driver;
     LoginBean loginBean;
     LoginPage loginPage;
 
@@ -30,23 +28,23 @@ public class LoginTest extends BuggyTestSetup {
 
     @BeforeClass
     public void setUp(){
-        webDriver = brew();
-        loginPage = new LoginPage(webDriver);
+        driver = brew();
+        loginPage = new LoginPage(driver);
 
     }
 
     @Test
     public void test_valid_login(){
-        webDriver.get("https://buggy.justtestit.org/");
-
+        this.driver.get("https://buggy.justtestit.org/");
         setDefaultValues();
         loginPage.setWebLoginTxt(loginBean.getName());
         loginPage.setWebPasswordTxt(loginBean.getPassword());
         loginPage.clickWebLoginBtn();
         String expectedTitle = "Buggy Cars Rating";
-        String originalTitle = webDriver.getTitle();
+        String originalTitle = this.driver.getTitle();
         softAssert.assertEquals(originalTitle, expectedTitle);
         softAssert.assertTrue(loginPage.validateLoginGreeting("Midhun"), "Invalid login");
+        Reporter.log("Login Success");
         softAssert.assertAll();
     }
 
@@ -79,8 +77,8 @@ public class LoginTest extends BuggyTestSetup {
 
     @AfterClass
     public void tearDown(){
-        if (webDriver !=null) {
-            webDriver.quit();
+        if (driver !=null) {
+            driver.quit();
             Reporter.log("Driver Closed After Testing");
         }
     }

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BuggyCarsRatingPage {
 
-    private WebDriver webDriver;
+    private WebDriver driver;
 
     @FindBy(xpath = "/html/body/my-app/div/main/my-overall/div/div/table/thead/tr/th[4]/a")
     WebElement webRankBtn;
@@ -15,8 +15,8 @@ public class BuggyCarsRatingPage {
     public BuggyCarsRatingPage(WebDriver driver) {
 
         //Set the Web Driver for this class to use the existing webdriver created in buggytest to interact with the browser.
-        this.webDriver = driver;
-        PageFactory.initElements(webDriver, this);
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
     public void clickWebRankBtn() {
         this.webRankBtn.click();

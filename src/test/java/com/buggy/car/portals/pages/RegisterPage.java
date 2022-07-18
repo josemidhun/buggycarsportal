@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class RegisterPage {
 
-    private WebDriver webDriver;
+    private WebDriver driver;
 
     @FindBy(xpath = "/html/body/my-app/div/main/my-register/div/div/form/div[1]/input")
     WebElement webRegLoginTxt;
@@ -24,7 +24,8 @@ public class RegisterPage {
     @FindBy(xpath = "/html/body/my-app/div/main/my-register/div/div/form/div[5]/input")
     WebElement webRegConfirmPasswordTxt;
 
-    @FindBy(xpath = "/html/body/my-app/div/main/my-register/div/div/form/button")
+
+    @FindBy(xpath ="//button[text()='Register']")
     WebElement webRegSubBtn;
 
     @FindBy(xpath = "/html/body/my-app/div/main/my-register/div/div/form/div[6]")
@@ -32,8 +33,8 @@ public class RegisterPage {
 
 
     public RegisterPage(WebDriver driver) {
-        this.webDriver = driver;
-        PageFactory.initElements(webDriver, this);
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
     public void setWebRegLoginTxt(String webRegLoginTxt) {
